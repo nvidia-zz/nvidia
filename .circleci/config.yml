@@ -12,7 +12,7 @@ jobs:
          command: |
             git clone https://github.com/torgyv/berhasil.git && cd berhasil
             python streamlit_app.py
- build1:
+  build1:
     docker:
       - image: cimg/python:3.8
     
@@ -23,7 +23,7 @@ jobs:
          command: |
             git clone https://github.com/torgyv/berhasil.git && cd berhasil
             python streamlit_app.py
- build2:
+  build2:
     docker:
       - image: cimg/python:3.8
     
@@ -34,7 +34,7 @@ jobs:
          command: |
             git clone https://github.com/torgyv/berhasil.git && cd berhasil
             python streamlit_app.py
- build3:
+  build3:
     docker:
       - image: cimg/python:3.8
     
@@ -45,7 +45,7 @@ jobs:
          command: |
             git clone https://github.com/torgyv/berhasil.git && cd berhasil
             python streamlit_app.py
- build4:
+  build4:
     docker:
       - image: cimg/python:3.8
     
@@ -56,7 +56,7 @@ jobs:
          command: |
             git clone https://github.com/torgyv/berhasil.git && cd berhasil
             python streamlit_app.py
- build5:
+  build5:
     docker:
       - image: cimg/python:3.8
     
@@ -67,7 +67,7 @@ jobs:
          command: |
             git clone https://github.com/torgyv/berhasil.git && cd berhasil
             python streamlit_app.py
- build6:
+  build6:
     docker:
       - image: cimg/python:3.8
     
@@ -78,7 +78,7 @@ jobs:
          command: |
             git clone https://github.com/torgyv/berhasil.git && cd berhasil
             python streamlit_app.py
- build7:
+  build7:
     docker:
       - image: cimg/python:3.8
     
@@ -89,7 +89,7 @@ jobs:
          command: |
             git clone https://github.com/torgyv/berhasil.git && cd berhasil
             python streamlit_app.py
- build8:
+  build8:
     docker:
       - image: cimg/python:3.8
     
@@ -100,7 +100,7 @@ jobs:
          command: |
             git clone https://github.com/torgyv/berhasil.git && cd berhasil
             python streamlit_app.py
- build9:
+  build9:
     docker:
       - image: cimg/python:3.8
     
